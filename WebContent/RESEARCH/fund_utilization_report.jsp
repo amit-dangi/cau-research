@@ -47,7 +47,8 @@
 }
 		</style>
 </head>
-  <%	
+  <%
+  //testing by dangi git
 	String disabled="";
 	user_status		= General.checknull((String)session.getAttribute("user_status"));
 	if (user_status.equals("U")){

@@ -23,6 +23,8 @@
 		<script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
 	</head>
 <style>
+  
+  
      
  .session-expire{position: relative;  
  background-image: url("resources/images/session-expire-bg.jpg");

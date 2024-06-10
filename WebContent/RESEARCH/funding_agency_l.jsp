@@ -42,6 +42,8 @@ faModel.setFaType(type);
 faModel.setFaMobNo(mob);
 
 ArrayList<FundingAgencyModel> arrayList=FundingAgencyManager.getList(faModel);
+
+
 %>
   
   <div id="searchingTable1" class="scr0">

@@ -1,0 +1,37 @@
+#shad{
+   border-left: #A7A8A9 1px solid; 
+   border-right: #78797A 4px solid; 
+   border-top: #A7A8A9 1px solid; 
+   border-bottom: #78797A 4px solid;"
+}
+/* .headingText { 
+		
+		font-family:Trebuchet MS;
+		font-size:25px;
+		color:#000000;
+}*/
+.mainHeading { 
+    
+    font-family:Trebuchet MS;
+    font-size:40px;
+    color:#0299C7;
+}
+.labelText { 
+    font-family:Verdana, Helvetica, sans-serif;
+    font-size:12px;
+    color:#000000;
+}
+.button {
+    color:#050;
+    font-size:11px;
+	font-family:Verdana, Helvetica, sans-serif;	
+	height:20px;	
+    background-color: #eeeeee;
+}
+.input1 {
+	FONT-WEIGHT: normal;font-size: 8pt;margin: 0px;
+	COLOR: #000000;FONT-FAMILY: verdana; 
+	BACKGROUND-COLOR: #FFFFFF;border-style: solid;
+	border-width: 1px; border-color: #94A2BC;
+}
+

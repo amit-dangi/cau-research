@@ -1,0 +1,45 @@
+.icon-add{
+	background:'icons/edit_add.png' no-repeat;
+}
+.icon-edit{
+	background:'icons/pencil.png' no-repeat;
+}
+.icon-remove{
+	background:'icons/edit_remove.png' no-repeat;
+}
+.icon-save{
+	background:'icons/filesave.png' no-repeat;
+}
+.icon-cut{
+	background:'icons/cut.png' no-repeat;
+}
+.icon-ok{
+	background:'icons/ok.png' no-repeat;
+}
+.icon-no{
+	background:'icons/no.png' no-repeat;
+}
+.icon-cancel{
+	background:'icons/cancel.png' no-repeat;
+}
+.icon-reload{
+	background:'icons/reload.png' no-repeat;
+}
+.icon-search{
+	background:'icons/search.png' no-repeat;
+}
+.icon-print{
+	background:'icons/print.png' no-repeat;
+}
+.icon-help{
+	background:'icons/help.png' no-repeat;
+}
+.icon-undo{
+	background:'icons/undo.png' no-repeat;
+}
+.icon-redo{
+	background:'icons/redo.png' no-repeat;
+}
+.icon-back{
+	background:'icons/back.png' no-repeat;
+}

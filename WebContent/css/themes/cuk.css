@@ -1,0 +1,80 @@
+
+
+body {
+	background-image: URL('images/login_back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+/*  for login heading css */
+.heading1-font{
+	font-size:24px; color:#0c426f !important;
+ }
+ .heading2-font{
+ 	font-size:15px;color:#1f7f51 !important;
+ 	font-weight: bold;
+    line-height: 22px;
+ }
+ .heading2-colr{
+    color:#1f7f51 !important;
+ }
+
+/* ************************* */
+/*  for login background css */
+	.loginbground{
+	    background-image: linear-gradient(#e2cdc6, #246339);
+}
+/* ************************* */
+
+.panel-heading .panel-title {
+    /*...padding-top: 7px;
+    padding-bottom: 7px;...*/
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    color: #ffffff !important;
+    font-family: Calibri, verdana,Arial, Helvetica, sans-serif;
+}
+.container-padding{
+	padding-top: 20px; padding-bottom:20px
+}
+
+ .dataEntryDiv{ 
+ 	    overflow-y: auto; 
+ 	    min-height: 80px;
+ 	    max-height: 200px; 
+ 	    width:100%;
+ 	   /*  border: 1px solid green !important; */
+ 	   }
+	  .dataEntryDiv thead th { 
+	    position: sticky; 
+	    top: 0;
+	    border: 0px solid #61e87b !important; 
+	    border: 1px solid #61e87b !important;
+        border-top: 0px solid #62b762 !important;
+        box-shadow: 1px 0 0 1px #62b762 !important;
+     }
+
+	/* Just common table stuff. Really. */
+		table  { border-collapse: collapse; width: 100%; }
+		th, td { padding: 4px 4px; }
+		th     { background:#eee; }
+ 
+ 	 table.tableGrid th {
+        background-color: #ffcc33;
+        border: 1px solid #439653 !important;
+        color:#0c426f;
+     }
+     .close {
+    	opacity: 1 !important;
+    	color: red !important;
+	 }
+	 .repTitle{padding:0px !important;}
+
+
+

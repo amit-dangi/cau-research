@@ -1,0 +1,631 @@
+.page-header{ padding: 0px 0px 0px 0px!important ;  border-bottom: none !important; margin:0px!important;}
+* .page-heading{    margin: 10px 0;}
+.page-header h4{    margin: 5px 0px;} */
+
+.page-header {
+  
+}
+
+select.input-sm{    width: 75px;
+    display: inline-block;
+    color: #555;
+    border-radius: 0px !important;
+    border-color: rgb(169, 169, 169);
+    border: 1px solid #ccc !important;
+    padding: 2px;
+    height: 22px;
+    font-size: 10.5px;
+    line-height: 30px;}
+    
+.hrm-fin{.row{margin:0} }
+.form-control[readonly]{
+	background-color: #fff; 
+    opacity: 1;}
+
+.form-control[disabled], fieldset[disabled] .form-control {
+   /*  background-color: #fff; */
+    opacity: 1;
+}
+
+.btn {/*  padding: 4px 14px; */ padding: 2px 10px;  
+font-family: Calibri,'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;}
+/* width: 80px; */}
+
+.form-group .m-t-25{margin-top: 25px; }
+.m-t-25 {margin-top: 25px;}
+.m-b-5{  margin-bottom: 5px;}
+.m-b-15{  margin-bottom: 15px;}
+.m-t-10{margin-top:10px;}
+.m-t-5{margin-top: 5px;}
+.m-tb-10{margin-top: 10px; margin-bottom: 10px}
+.m-t-20{margin-top: 10px}
+.m-r-10{margin-right:20px}
+
+
+ #myForm2 .page-header{margin: 5px 0px; border:none;}
+   
+   #searchingTable{top:0px; height:400px; position:relative;} 
+
+/*  #searchingTable{top:0px; width:100%; height:300px; position:relative;} */
+    
+ #btmfrmHRFinYearD{ width:100%; min-height:300px }
+    
+.errMsg {font-size:11px; color:#d73925;}
+
+.panel-heading .colr-tab{color: #233876 !important;}
+
+.colr-brown-p{color:brown; cursor:pointer;}
+.colr-blue-p{color: #3c8dbc; cursor:pointer;}
+.colr-red-p{color: #d73925; cursor:pointer;}
+.colr-green-p{color: #237f52; cursor:pointer;}
+
+.colr-blue{color: #3c8dbc !important;}
+.colr-red{color: #d73925; }
+.colr-brown{color:brown;}
+.colr-green{color: #237f52}
+.colr-orange{color:#ff8c00}
+.colr-indianred{color:#CD5C5C !important}
+.colr-ral{color:#FF5733}
+ .colr-pink{color: #D72B78 !important;} 
+
+
+
+.errMsg_tr{color:#d73925; font-size:12px;}
+.panel-body{margin: 0; padding: 10px 26px;}
+
+ /*  DIV FOR THE FORMULA MASTER  */
+ 
+ .formula-mstr {border:solid 1px #B2BABB; height:275px; border-radius:15px;}
+ .calculator{border:solid 1px #B2BABB; height:275px; border-radius:15px; margin: 10px 15px;}
+ .calculator-1{border:solid 1px #B2BABB; height:275px;border-radius:15px;} 
+ .calculator .btn{text-align: center; margin:5px; width: 50px;}
+.box-budgetHead{border:solid 1px #B2BABB; height:250px; border-radius:0px;}
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(75,75,75,0.7);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(48, 152, 157, 0.4);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.hovereffect a.info {
+  display: inline-block ;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: normal;
+  margin: -52px 0 0 0;
+  padding: 62px 100px;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+.box-1 {
+    border: 1px solid #0A819C;  
+    text-align: center;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.05);
+  position: relative;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  opacity: .7
+}
+
+.box-1:hover .overlay {
+  width: 100%;
+}
+
+.text-effect a{
+  white-space: nowrap; 
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: none
+}
+
+.box{ background-color: #fff;
+    border: 1px solid #0A819C;
+    background:#eee;
+    text-align: center;
+padding: 15px;
+margin: 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.05);}
+.box-body{ margin: 10px}
+.text .text-style a{font-size:22px; color:#0A819C; text-decoration: none}
+.img-responsive .w-50{width:50%}
+
+/* .input-group */
+
+.date.form-control{    border-top-left-radius: 0 !important ;
+    border-bottom-left-radius: 0 !important;
+	
+}
+
+.box-header { text-align: center;}
+
+.listdt h3.datatableTitleText {
+    font-family: verdana;
+    color: #D72B78;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 9px;
+}
+.search_time {
+    color: #D72B78;
+    font-size: 11px !important;
+    font-weight: 700;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    padding-top: 9px;
+}
+.box-header .box-title { display: inline-block;    margin: 0;    font-family: verdana;
+    color: #D72B78;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 9px;
+}
+.pull-right { float: right;}
+
+/* The checkbox_main style by nisha */
+
+#student_course_allocation_dt .checkbox_main {
+    display: inline-block !important;
+    position: relative;
+    padding-left: 18px !important;
+    cursor: pointer;
+    font-size: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   height: 8px;
+   text-align:center;
+}
+
+#student_course_allocation_dt .checkbox_main input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+#student_course_allocation_dt .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+     height: 12px !important;
+    width: 12px !important;
+    background-color: #fff;
+    border: 1px solid #d2d6de;
+}
+
+
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+#student_course_allocation_dt .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+#student_course_allocation_dt .checkbox_main input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+#student_course_allocation_dt .checkbox_main .checkmark:after {
+   /*  left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px; */
+    left: 3px;
+top: 0px;
+width: 5px;
+ height: 9px;
+    border: solid #2196F3;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* inner table  */
+
+.checkbox_main {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+  /*   margin-bottom: 12px; */
+    cursor: pointer;
+    font-size: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+   height: 8px;
+/*  height: 25px; */
+}
+
+/* Hide the browser's default checkbox */
+.checkbox_main input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 8px;
+    left: 0;
+   height: 12px;
+    width: 12px; 
+    background-color: #fff;
+    border: 1px solid #d2d6de;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox_main input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox_main .checkmark:after {
+  /*   left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px; */
+     left: 3px;
+top: 0px;
+width: 5px;
+ height: 9px;
+    border: solid #2196F3;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* The radiobox */
+.radiobox_main {
+   display: inline-block;
+    position: relative;
+  /*   padding-left: 30px; */
+  padding-left: 25px;
+  padding-right: 10px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 11px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+        line-height: 28px;
+    font-weight: normal;
+}
+
+/* Hide the browser's default radio button */
+.radiobox_main input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.radiomark {
+    position: absolute;
+    top:5px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radiobox_main:hover input ~ .radiomark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiobox_main input:checked ~ .radiomark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radiomark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiobox_main input:checked ~ .radiomark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+
+.radiobox_main .radiomark:after {
+ 	/* top: 9px;
+	left: 9px; */
+	top: 6px;
+    left: 7px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/* .multiselect .dropdown-toggle .btn .btn-default {   
+    width: 100% !important;
+} */
+
+.multiselect-container>li>a>label.checkbox {
+   /*  margin: 0; */
+   padding-left: 7px !important;
+}
+
+.multiselect-container>li>a>label.checkbox input {
+   /*  margin: 0; */
+   padding-right: 7px !important;
+}
+
+.multiselect-container .checkbox input[type=checkbox], .multiselect-container .checkbox-inline input[type=checkbox] {
+   position: relative !important;
+    margin-top: 4px !important;
+  
+}
+
+
+.multiselect-container>li>a>label {
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 5px 3px 5px !important;
+}
+ /* #multiple-checkboxes */
+  .btn-group{
+    width: 100% !important;
+}
+.dataTables_length, .dataTables_info {float: left}
+.dataTables_paginate {float: right}
+
+/* table .txt_center thead th, tbody td{text-align: center !important;} */
+
+
+/* * Page: Login & Register * ---------------------- */
+.login-logo, .register-logo {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.login-logo a, .register-logo a {
+  color: #444;
+}
+.login-box .login-logo{border-bottom: 1px solid #eee !important;}
+.login-page, .register-page {
+  background: #d2d6de;
+}
+.login-box, .register-box {
+  width: 360px;
+  margin: 7% auto;
+ /*  border:2px solid #2693CD; */
+ border: 1px solid #7fb889;
+}
+@media (max-width: 768px) {
+  .login-box,   .register-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+.login-box-body, .register-box-body {
+  background: #fff;
+  padding: 20px;
+  border-top: 0;
+  color: #666;
+}
+.login-box-body .form-control-feedback, .register-box-body .form-control-feedback {
+  color: #777;
+}
+.login-box-msg, .register-box-msg {
+  margin: 0;
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+.social-auth-links {
+  margin: 10px 0;
+}
+/*Start Main page  */
+
+/* .panel-default > .panel-heading {
+    background-color: #F4F2F2;
+    border-color: #ddd;
+}
+.panel-heading .panel-title {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2693CD;
+    text-align: center;
+} */
+
+/*  internal marks feeding inner table*/
+#student_course_allocation_dt, th.inner_tbl_b{border-top:1px solid #434546 !important; margin-top: 5px;}
+#student_course_allocation_dt, th, td .inner_tbl_w{border:none !important}
+.#student_course_allocation_dt {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px !important;
+}
+#student_course_allocation_dt, .intr_mrks {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;}
+   
+  #student_course_allocation_dt, th>.intr_mrks {order-top: 1px solid red; } 
+#student_course_allocation_dt .int_ext{width: 100%; padding: 0px; margin: 0 !important}
+
+.int_ext th td{
+    padding: 2px 1px !important;
+}
+#student_course_allocation_dt, th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+      padding: 5px;
+}
+
+
+
+table #student_course_allocation_dt > tbody > tr > td { 
+	font-family: 'SourceSansPro-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px !important;}
+    
+
+table > thead > tr > th .text-center{text-align:center}
+table > tbody > tr > td .text-center{text-align:center !important}
+table > tbody > tr > td .text-left{text-align:left !important}
+table > tbody > tr > td .text-right{text-align:right !important}
+/* .text-center{text-align:center} */
+
+.w-10-per{width: 10% !important}
+.w-15-per{width: 15%}
+.p-l-3{padding: 0 3px 0px 0px;}
+.p-r-20{padding-right: 20px}
+
+.w-10{width:10px !important}
+.w-30{width:30px !important}
+.w-15{width:15px !important}
+.w-50{width:50px !important}
+.w-60{width:60px !important}
+
+.t-right{text-align: right !important}
+
+.form-control .t-right{text-align: right !important}
+
+.inst_font{font-size: 18px;  display: inherit; line-height: 34px; text-decoration: underline}
+.inst_border{border:1px solid #CD5C5C; border-radius: 9px; margin-top: 5px}
+.text-justify{text-align: justify;}
+.font-s-15{font-size: 15px}
+.font-italic{font-style: italic;}
+
+.no_data_frn{color:red; font-weight: bold; font-size:13px; line-height:9px;background-color: #f9f9f9;"}
+
+ .cross_size{ 
+    font-size: 24px!important;
+    TEXT-ALIGN: CENTER !important;
+    FONT-WEIGHT: BOLD !important;
+    PADDING: 0PX !IMPORTANT;
+    color:red !important
+ }

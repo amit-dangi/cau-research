@@ -1,0 +1,259 @@
+/* ------------------------flex Scroll Start here---------------------------- */
+
+div.flexcroll{
+height: 200px !important;
+overflow:auto !important;
+overflow-x:hidden !important;
+}
+
+.flexcroll{
+height: 200px;
+overflow: auto;
+overflow-x: hidden;
+}
+
+
+.flexcroll::-webkit-scrollbar {
+width: 6px;
+}
+
+
+.flexcroll::-webkit-scrollbar-track {
+-webkit-border-radius: 10px;
+border-radius: 0px;
+background: white !important;
+
+}
+
+.flexcroll::-webkit-scrollbar-thumb {
+-webkit-border-radius: 10px;
+border-radius: 0px;
+background: white !important;
+}
+/* -------------------------flex Scroll End here-------------------------------- */
+
+@media (max-width: 1600px) and (min-width: 1280px) { 
+.container-fluid {
+	width:90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+@media (max-width: 1280px) and (min-width: 1024px) { 	
+	.col-md-4{width: 33.3%; float: left;}
+	.col-md-6{width: 50%; float: left;}
+}
+
+@media (max-width: 1024px) and (min-width: 800px) { 
+	.col-md-4{width: 33.3%; float: left;}
+/* 	#module_height{min-height: 150px;} */
+.footer.col-md-6{width: 50%; float: left;}
+
+/*  #module_height .panel-blue{min-height: 150px; background-color: rgb(0, 121, 154) !important;} */	
+}
+
+@media (max-width: 800px) and (min-width: 640px) { 
+	.col-md-4{width: 33.3%; float: left;}
+/* 	#module_height{min-height: 130px;} */
+/* .panel-blue{ min-height: 130px !important;  background-color: rgb(0, 121, 154) !important;} */
+	
+.col-md-6{width: 50%; float: left;}
+.col-sm-6{width: 50%; float: left;}
+
+#hmain .center {padding: 0px !important;}
+}
+
+/*  @media (min-width: 768px){
+.col-lg-3, .col-md-4{width: 33.3% !important; float: left !important;} */
+
+}
+/* @media (width: 768px){
+	
+ #searchingTable{
+  width:1500px; 
+  }		
+} */
+
+/* @media (min-width: 768px){
+.col-sm-5 {width: 41.66666667%;}
+}
+
+@media (min-width: 768px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+} */
+
+
+@media screen and (max-width: 768px){
+	.form-group { margin-bottom: 0px !important;}
+	
+	.col-sm-5, .col-sm-7{width: 50% !important; float: left!important;}
+	
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, 
+div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate 
+{
+	.col-sm-5, .col-sm-7
+	{
+		width: 50% !important; float: left!important;
+    	/* text-align: center; */
+	}
+   
+   .calculator .btn {
+       margin: 5px;
+	}
+}
+
+
+@media (max-width: 640px) and (min-width: 320px) { 
+.col-md-6{width: 50%; float: left;}
+
+
+
+	
+}
+
+
+
+@media (max-width: 480px) and (min-width: 320px) {
+	.header{font-size: 11px;}
+	
+}
+
+
+@media (max-width: 320px) and (min-width: 0px) { }
+
+
+ /* footer css start */
+.p-t-10{padding-top:8px;}
+.mgn{margin: 0}
+
+.footer-font{font-size:12px;color:#000000; padding-right: 5px;}
+
+.copyright-font{font-size:10px;color:#000000;"}
+
+/* DDO form css start */
+.page-header {border-bottom: 1px solid #eee !important;}
+
+.panel.panel-default {
+    border: none !important;
+}
+
+ /* main page css start */
+ 
+ body {		
+		background-image:URL('images/login_back.jpg');
+		background-repeat: no-repeat;
+		background-size:cover;
+	}
+html {height: 100%;}
+
+	.topheader 
+	{
+	    left:0%;
+	    right:0%;
+	    top:0%;	
+		background-image: -ms-linear-gradient(bottom, #384E7D 0%, #7B8EC5 100%); /*ie10*/
+    	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#384E7D,endColorStr=#7B8EC5);
+    	background: -moz-linear-gradient(top, #3A4F8B 0%, #7B8EC5 100%); /* firefox */
+    	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3A4F8B), color-stop(100%,#7B8EC5)); /* webkit */
+	}
+	.Estock1{FONT-WEIGHT: normal; FONT-SIZE: 24px; COLOR: #BD0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none;}
+	.Estock2{FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #DBDBEA; FONT-FAMILY: Verdana; TEXT-DECORATION: none;}
+	.Estock3{FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #666699; FONT-FAMILY: Verdana; TEXT-DECORATION: none;}
+	
+	hr{margin-top:10px; margin-bottom:10px}
+
+	.panel-default { border-color: #ddd;}  	
+	
+	.panel-default>.panel-heading {
+    	
+    	background-color: #F4F2F2;
+    	border-color: #ddd;
+	}
+  .m-tb-5{margin-top: 2% ; margin-bottom: 2%}	
+  .title-heading{font-size:22px;font-weight:bold;color:#dd137b;}	
+  .Font-text{text-align:center; font-size:12px;font-weight:bold;color:#000000; line-height: 22px;}
+  
+  	.panel-heading
+  	{
+  		margin:0px;
+		padding-top:4px;
+		padding-bottom:4px;
+  	} 
+  	.panel-body{margin:2%; padding:0px !important;}
+  	
+  /*#myform{margin:5% 0 } */  	
+  
+	.panel-heading .panel-title
+	{
+		padding-top:7px;
+		padding-bottom:7px;
+		font-size:15px;
+		font-weight:bold;
+		color:#2693CD;
+		text-align: center;
+	}
+	/* Full-width inputs */
+	input[type=text], input[type=password] {
+	    width: 100%;
+	    padding: 10px 20px;
+	    margin: 8px 0;
+	    display: inline-block;
+	    border: 1px solid #ccc;
+	    box-sizing: border-box;
+	}
+	
+	/* Set a style for all buttons */
+	button {
+		background-color: #2693CD; /*#4CAF50;*/
+		color: white;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		 -moz-border-radius: 3px;
+		 -webkit-border-radius: 3px;    
+		 border-radius: 3px;	    
+	}
+	
+	/* Add a hover effect for buttons */
+	button:hover {opacity: 0.8;}
+	
+	/* Center the avatar image inside this container */
+	.imgcontainer {
+	    text-align: center;
+	    margin: 3px 0 6px 0;
+	    border:0px solid #ffffff;
+	}
+	
+	.imgcontainer .avatar{ width: 50% !important; height: auto !important;}
+/* #wrap {
+    padding: 20px;
+    min-height: -webkit-calc(100% - 80px);     /* Chrome */
+    min-height: -moz-calc(100% - 80px);     /* Firefox */
+    min-height: calc(100% - 80px);     /* native */
+} */
+
+
+
+#slt {width:0px;border-color:transparent;}
+
+.footer {
+  position: absolute; 
+  bottom: 0px;
+  width: 100%;
+  background-color: #2693CD;
+}
+
+  /* main page css end */
+  
+  /* Table height  */
+/* .panel-body .form-group .col-md-8, .form-group .col-md-4{height:50px} */
+
+   /* .panel-body .form-group .col-sm-2,  .panel-body .form-group .col-sm-4{height:50px} */
+

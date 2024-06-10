@@ -42,6 +42,7 @@ faModel.setFaType(type);
 faModel.setFaMobNo(mob);
 
 ArrayList<FundingAgencyModel> arrayList=FundingAgencyManager.getList(faModel);
+// System.out.println("By Ashwani");
 %>
   
   <div id="searchingTable1" class="scr0">

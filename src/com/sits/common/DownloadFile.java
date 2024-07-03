@@ -25,6 +25,7 @@ public class DownloadFile extends HttpServlet {
 	protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String filePath="", path="";    	
 		
+		System.out.println("Git test");
 		//System.out.println("fileName :"+request.getParameter("filename"));
 		String fileName=General.checknull(request.getParameter("filename"));		
     	//System.out.println("fileName :"+fileName);
